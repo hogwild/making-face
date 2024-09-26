@@ -41,7 +41,8 @@ function Face (props){
             </svg>
         </div>)
 }
-export default function DynamicFace(){
+
+function DynamicFace(){
     const [mood, setMood]= useState('daze')
     const onClick = (mood) => {
         setMood(mood)
@@ -63,3 +64,6 @@ export default function DynamicFace(){
         </Container>
     )
 }
+
+
+export default DynamicFace
