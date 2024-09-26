@@ -37,7 +37,7 @@ function Face (props){
                 <circle className={face_styles.eye} cx={width/4} cy={height/3} r='15' />
                 <circle className={face_styles.eye} cx={width*3/4} cy={height/3} r='15' /> 
                 <line className={face_styles.nose} x1={width/2} y1={height/3} x2={width/2} y2={height*8/15}></line>
-                <path className={face_styles.mouth} d={mouthArc} style={{"stroke-width":`${strokeWidth?strokeWidth:"20px"}`}}></path>
+                <path className={face_styles.mouth} d={mouthArc} style={{"strokeWidth":`${strokeWidth?strokeWidth:"20px"}`}}></path>
             </svg>
         </div>)
 }

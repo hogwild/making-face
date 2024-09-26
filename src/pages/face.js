@@ -1,6 +1,6 @@
 import * as d3 from "d3"
 
-import styles from "./css/styles.module.css"
+import styles from "./css/face_styles.module.css"
 
 
 function Ball(props){
